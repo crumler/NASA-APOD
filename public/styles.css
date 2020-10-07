@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap');
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    background: rgba(45,58,108,1);
+    background: -moz-linear-gradient(left, rgba(45,58,108,1) 0%, rgba(0,11,51,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(45,58,108,1)), color-stop(100%, rgba(0,11,51,1)));
+    background: -webkit-linear-gradient(left, rgba(45,58,108,1) 0%, rgba(0,11,51,1) 100%);
+    background: -o-linear-gradient(left, rgba(45,58,108,1) 0%, rgba(0,11,51,1) 100%);
+    background: -ms-linear-gradient(left, rgba(45,58,108,1) 0%, rgba(0,11,51,1) 100%);
+    background: linear-gradient(to right, rgba(45,58,108,1) 0%, rgba(0,11,51,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d3a6c', endColorstr='#000b33', GradientType=1 );
+}
+
+h1, h2, h3, h5 {
+    text-align: center;
+}
+
+#container {
+    display: grid;
+    justify-content: center;
+}
+
+#newDayRow {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 4em;
+}
+
+#olderDaysRow {
+    grid-gap: 40px;
+}
+
+#oldDates {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#currentDay {
+    height: 500px;
+    width: 500px;
+    align-content: center;
+    align-self: center;
+}
+
+#dayTwo {
+    height: 200px;
+    width: 200px;
+}
+
+#dayThree {
+    height: 200px;
+    width: 200px;
+}
+
+#dayFour {
+    height: 200px;
+    width: 200px;
+}
+
+#dayFive {
+    height: 200px;
+    width: 200px;
+}
